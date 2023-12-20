@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "icon" href = "titlelogo1.png" sizes="any" type = "image/x-icon"  >
+    <script src="https://kit.fontawesome.com/683b4b40e3.js" crossorigin="anonymous"></script>
+ 
+    <link rel="stylesheet" href="rahulhome.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet1.css">
+    <script src="https://kit.fontawesome.com/2b1b51c954.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="imgstyle.css" />
+    <link rel="stylesheet" href="sizebox.css">
+    
+<script src="jquery.js"></script>
+<script src="zoom.js"></script>
+<script src="script.js"></script>
+
+    <style>
+       
+       
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+        
+       .rahulshoes{
+           margin-top: 20px;
+           height:1250px ;  
+           width: 100%;
+         margin-top: 70px;
+           display:grid;
+           grid-template-columns: repeat(2,1fr);
+           grid-gap: 50px;
+       }
+      
+       #shoesdis{
+         
+           height: 100%;
+          
+          
+       }
+#shoesh1{
+    font-family: 'Lato', sans-serif;
+     font-size: 25px;
+     font-weight: 800;
+    word-break: break-word;
+    color:rgb(0, 0, 0);
+    clear: both;
+    margin: 0 0 0.75em;
+    margin-top: 4px;
+
+    
+}
+#price{
+    margin-top: 6%;
+}
+
+#rupe{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+#pricetext{
+    font-size: 20px;
+    margin-left: 5px;
+}
+#guarantee{
+ margin: 10px auto 0px auto;
+ text-align: center;
+ 
+ width: 100%;
+ border: 1px solid transparent;
+ 
+}
+#supporticon{
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px;
+    grid-template-areas:
+    "box1 box2 box3 box4";
+    grid-gap: 10px;
+}
+#supporticon:nth-child(1){
+    grid-area: box1;
+    border: 1px solid transparent;
+    text-align: center;
+    margin: auto;
+}
+#supporticon:nth-child(2){
+    grid-area: box2;
+    border: 1px solid transparent;
+}
+#supporticon:nth-child(3){
+    grid-area: box3;
+    border: 1px solid transparent;
+   
+}
+#supporticon:nth-child(4){
+    grid-area: box4;
+    border: 1px solid transparent;
+   
+}
+
+#supporticon h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 6px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+#pasize{
+    height: 60px;
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 0px;
+   
+}
+#sizebox{
+    height: 35px;
+    width: 170px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 0px;
+    border: 1px solid;
+   
+}
+table{
+   
+    width: 40px;
+}
+#buycart{
+   
+display: grid;
+margin-top: 5px;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: 60px;
+padding: 10px;
+grid-template-areas: 
+"cart1 cart2 cart3 cart3";
+grid-gap: 2px;
+border: 1px solid white;
+}
+#buycart>:nth-child(1){
+    grid-area:cart1;
+  
+   text-align: center;
+ 
+  
+
+}
+#buycart>:nth-child(2){
+    grid-area:cart2;
+  
+
+}
+#buycart>:nth-child(3){
+    grid-area:cart3;
+  
+    text-align: center;
+  
+   
+}
+#butt1:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#butt1{
+    height:50px;
+    width: 150px;
+    font-size: 14px;
+    background-color: #ffce61;
+    margin: 15px 10px 0px 0px;
+    padding: 14px 20px;
+    font-family: lato,sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2PX SOLID black;
+    
+}
+
+#input1{
+    width: 100px;
+    height: 45px;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: transparent;
+    text-align: center;
+    padding: 8px 0px;
+    margin-top: 10%;
+    outline: none;
+
+
+
+
+    
+
+}
+#butt3{
+height: 50px;
+width: 300px;
+background-color:#ffce61;
+font-size: 14px;
+font-size: lato,sans-serif;
+margin: 15px 0px;
+padding: 14px;
+color: #222222;
+font-weight: 500;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+text-align: center;
+border: 2PX SOLID black;
+cursor: pointer;
+}
+#butt3:hover{
+    background-color: white;
+   
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+    opacity: 1;
+
+}
+#enquirybox{
+height: 50px;
+width: 80%;
+margin: auto;
+text-align: center;
+margin-top: 50px;
+}
+#enquirybutt{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color:
+#ffce61;
+border: 2px solid black;
+}
+#enquirybutt:hover{
+
+background-color: white;
+cursor:pointer;
+}
+#colourfulltext{
+   
+    height: 460px;
+    width: 100%;
+    margin-top: 30px;
+    padding: 14PX 0PX 10PX 14px;
+}
+#preorder{
+    background: -webkit-linear-gradient(
+45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab 80%);
+    background-image: -webkit-linear-gradient(
+45deg, rgb(238, 119, 82), rgb(231, 60, 126), rgb(35, 166, 213), rgb(35, 213, 171) 80%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-color: initial;
+    background-clip: border-box;
+    background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: 'Lato', sans-serif;
+}
+   
+
+li{
+    height: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 34px;
+ 
+   
+}
+#odd{
+    margin-left: -1px;
+  
+}
+#newodd{
+margin-top: 45px;
+}
+#skuholl{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: rgb(155, 155, 155);
+  
+    padding: 14PX 0PX 10PX 40px;
+    line-height: 30px;
+}
+#sku{
+   color: black; 
+   font-weight: 800;
+}
+#icons{
+    height: 100px;
+    width: 400px;
+   
+    margin: 15px 0px 0px 40px;
+    display: flex;
+    margin-left: 10px;
+    padding:14PX 0PX 10PX 30px ;
+   
+}
+#icons>div{
+    margin-left: -1px;
+  
+}
+#icons button{
+    height: 40px;
+    border: transparent;
+    background-color: white;
+    margin: 0px;
+
+}
+#icons button:hover{
+    cursor: pointer;
+    zoom: 90%;
+}
+
+#relatedproducts{
+   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 60px 340px;
+    grid-template-areas:
+          "a a a a"
+          "b c d e";
+    grid-gap: 20px;
+    padding: 0px 20px 20px 20px;
+}
+#relatedproducts>:nth-child(1){
+    grid-area:a;
+    border: 1px sold green;
+    background-color: yellowgreen;
+    margin: 0px 0px 79.2px;
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #313131;
+}
+#relatedproducts>:nth-child(2){
+    grid-area:b;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color:#222222;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    
+}
+#relatedproducts>:nth-child(3){
+    grid-area:c;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color:#222222;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+#relatedproducts>:nth-child(4){
+    grid-area:d;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color:#222222;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+#relatedproducts>:nth-child(5){
+    grid-area:e;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color:#222222;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    
+}
+#relatedproducts>div>span{
+    color: rgb(3, 3, 3);
+    font-weight: 500;
+}
+#rate{
+    font-size: 23px;
+    font-weight: 600;
+    color:#222222;
+}
+
+#relatedproducts>div>p:hover{
+    zoom: 93%;
+    text-decoration: underline;
+    cursor: pointer;
+
+
+
+}
+#relatedproducts>div>img:hover{
+    zoom: 93%;
+    
+    cursor: pointer;
+
+
+
+}
+#cartsum{
+    font-size: 17px;
+    margin-left: 3px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+
+
+    </style>
+</head>
+<body>
+   <div id="rahultop"><p id="topOfferBar">FOR ONLINE PAYMENT EXTRA ₹50 DISCOUNT ON ORDERS ABOVE ₹500</p></div> 
+    <div id="container">
+
+  <!-- mayur page started -->
+
+        <div id="navBar1">
+            <div id="searchBox">
+                <input id="searchBar" type="text" placeholder="Search here..."/>
+                <img id="searchButton" src="search.svg" alt="search">
+            </div>
+            <div id="uboricLogoBox">
+                <img id="uboricLogo" src="uboric.svg" alt="uboric logo">
+            </div>
+            <div id="accountCartBox">
+                
+                <div class="signindropdown">
+                    <i id="accountLogo" class="fas fa-user-circle"></i>
+                    <div class="signindropdown-content">
+                        <h1>Sign in</h1>
+                        <p>CREATE AN ACCOUNT</p>
+                        <hr/>
+                      <form>
+                          <label id="signinBoxtxt">Username or email<span id="redStar"> *</span></label><br/>
+                          <input id="signinEmail" type="text"/><br/>
+                          <label id="signinBoxtxt">Password<span id="redStar"> *</span></label><br/>
+                          <input id="signinPassword" type="password"/><br/>
+                          <a id="passwordLost" href="">LOST YOUR PASSWORD?</a><br/>
+                          <input id="signinButton" type="submit" value="LOGIN"/><br/>
+                      </form>
+                    </div>
+                 </div>
+            
+            <i class="fas fa-cart-plus"></i>
+             <p id="cartsum">( 0 ) </p>
+        </div>
+        </div>
+
+
+        
+            
+      <div id="navBarBox">
+        <div class="navbar">
+            <a href="finalHomePage.html">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">Categories 
+                <i class="fa fa-caret-down arrowD"></i>
+              </button>
+              <div class="dropdown-content">
+                  <div class="tab">
+                      <button class="tablinks" onmouseover="openCategory(event, 'Fashion')">Fashion</button>
+                      <button class="tablinks" onmouseover="openCategory(event, 'Kitchen')">Kitchen</button>
+                      <button class="tablinks" onmouseover="openCategory(event, 'Accessories')">Accessories</button>
+                      <button class="tablinks" onmouseover="openCategory(event, 'Health&PersonalCare')">Health & Personal Care</button>
+                      <button class="tablinks" onmouseover="openCategory(event, 'Electronics')">Electronics</button>
+                      <button class="tablinks" onmouseover="openCategory(event, 'ElectricAppliances')">Electric Appliances</button>
+                      <button class="tablinks" >Paintings</button>
+                      <button class="tablinks" >Anti puncture Liquid</button>
+                    
+                    </div>
+                    
+                    <div id="Fashion" class="tabcontent">
+                      <table>
+                        <thead align="left" class="tableheader">
+                            <tr>
+                                <th colspan="3" align="left" valign="middle" style="text-decoration: none;">
+                                Foot Wear</th>
+                                <th rowspan="1" align="left" valign="middle" style="text-decoration: none;">
+                                Clothing</th>
+                            </tr>
+                            <tr>
+                                <th>Mens footwear</th>
+                                <th>Socs</th>
+                                <th>Product Clouser</th>
+                                <td>Mens Clothing</td>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td align="left">Casual Chapple/Slippers</td>
+                            <td align="left"></td>
+                            <td align="left">Lace Up</td>  
+                            <td align="left">Womens colthing</td> 
+                        </tr>
+                        <tr>
+                            <td align="left">Casual Sandals</td>
+                            <td align="left"></td>
+                            <td align="left">Slip On</td>
+                            <td align="left">Western Wear</td>
+                        </tr>
+                        <tr>
+                            <td align="left"> Casual/Party Shoes</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                            <td align="left">Kurti</td>
+                        </tr>
+                        <tr>
+                            <td align="left"> Chappal/Slippers</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td align="left"> Crocs</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                        <tr>
+                            <td align="left"> Flip Flops</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                        <tr>
+                            <td align="left"> Loafers</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                        <tr>
+                            <td align="left"> Mojdi</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                        <tr>
+                            <td align="left">Sneakers</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                        <tr>
+                            <td align="left">Sports Sandals</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                        <tr>
+                            <td align="left">Soprts Shoes</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                      </table>
+                    </div>
+                    
+                    <div id="Kitchen" class="tabcontent">
+                        <table>
+                            <thead align="left" class="tableheader">
+                                <tr>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Kitchen Ware</th>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Household Supplies</th>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Grocery</th>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Spices</th>
+                                </tr>
+                                <tr>
+                                    <th>Air Tight Containers</th>
+                                </tr>
+                                <tr>
+                                    <th>Gas Lighter</th>
+                                </tr>
+                                <tr>
+                                    <th>Kitchen Tools</th>
+                                </tr>
+                            </thead>
+                            </table>
+                    </div>
+                    
+                    <div id="Accessories" class="tabcontent">
+                        <table>
+                            <thead align="left" class="tableheader">
+                                <tr>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Unisex Braclets</th>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Jewellery</th>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Bathroom Accessories</th>
+                                </tr>
+                            </thead>
+                            </table>
+                    </div>
+                    
+                    <div id="Health&PersonalCare" class="tabcontent">
+                        <table>
+                            <thead align="left" class="tableheader">
+                                <tr>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Health Care</th>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Personal Care</th>
+                                </tr>
+                                <tr>
+                                    <td>Day Joy</td>
+                                    <td>Bombay Shaving Company</td>
+                                </tr>
+                                <tr>
+                                    <td>Face Mask</td>
+                                    <td>Day Joy</td>
+                                </tr>
+                                <tr>
+                                    <td>GNFC</td>
+                                    <td>Dr Batras</td>
+                                </tr>
+                                <tr>
+                                    <td>Oxi9</td>
+                                    <td>DYNA</td>
+                                </tr>
+                                <tr>
+                                    <td>Shreeji Sanjavni Gurukul</td>
+                                    <td>GNFC</td>
+                                </tr>
+                            </thead>
+                            </table>
+                    </div>
+                    
+                    <div id="Electronics" class="tabcontent">
+                        <table>
+                            <thead align="left" class="tableheader">
+                                <tr>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Headphones</th>
+                                </tr>
+                                <tr>
+                                    <td>From 549</td>
+                                </tr>
+                                <tr>
+                                    <td>From 1132</td>
+                                </tr>
+                                <tr>
+                                    <td>From 1714</td>
+                                </tr>
+                                <tr>
+                                    <td>From 2297</td>
+                                </tr>
+                            </thead>
+                            </table>
+                    </div>
+                    
+                    <div id="ElectricAppliances" class="tabcontent">
+                        <table>
+                            <thead align="left" class="tableheader">
+                                <tr>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Philips</th>
+                                </tr>
+                            </thead>
+                            </table>
+                    </div>
+                    
+                    <div class="clearfix"></div>
+                </div>
+             
+            </div> 
+            <a href="LoginSignup.html">Customer/Guest login</a>
+            <a href="#news">Merchant/Bulk Order</a>
+            <a href="vender_page.html">Become A Seller</a>
+          </div> 
+           
+          <!-- <div > 
+            <a id="rahu" href="#news">Customer/Guest login</a>
+            <a id="rahu" href="#news">Merchant/Bulk Order</a>
+            <a id="rahu" href="#news">Become A Seller</a>
+          </div> -->
+            
+       
+    </div>
+    
+
+<script>
+function openCategory(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </div>
+        </div>
+        <div id="rahulline">
+        <div id="sectionNameBox">
+            <h1 id="myAccount">WOODLAND MEN'S CASUAL/PARTY SHOES IN THA COLOUR</h1>
+            <p id="home">Home <span id="Gap"> ></span><span id="myAccountGap"> Products</span><span id="Gap"> ></span><span id="myAccountGap"> Foot Wear</span><span id="Gap"> ></span><span id="myAccountGap">Men,s footwear</span><span id="Gap"> ></span><span id="myAccountGap">Casual/party shoes</span><span id="Gap"> ></span><span id="myAccountGap"> WOODLAND MAN'S CASUAL/PARTY SHOES IN TAN COLOUR</span></p>
+        </div>
+        </div>
+        <div></div>
+        
+    </div>
+      <div class="rahulshoes">
+          <div id="shoesimg">
+           
+               
+
+
+
+            <div class="container">
+                <div class="xzoom-container">
+                    <img id="img1"src="https://www.uboric.com//wp-content/uploads/2021/02/DSC_1011_result.jpg" height="400px" width="600px" class="xzoom" xoriginal="https://www.uboric.com//wp-content/uploads/2021/02/DSC_1011_result.jpg">
+                    <div class="xzoom-thumbs">
+                        <a href="https://www.uboric.com//wp-content/uploads/2021/02/DSC_1011_result.jpg" height="400px" width="600px">
+                         <img class="xzoom-gallery" src="https://www.uboric.com//wp-content/uploads/2021/02/DSC_1011_result.jpg" >
+                       </a>
+                         <a href="https://www.uboric.com//wp-content/uploads/2021/02/DSC_1012_result.jpg" height="400px" width="600px">
+                           <img class="xzoom-gallery" src="https://www.uboric.com//wp-content/uploads/2021/02/DSC_1012_result.jpg" >
+                       </a>
+                           <a href="https://www.uboric.com//wp-content/uploads/2021/02/DSC_1014_result.jpg" height="400px" width="600px">
+                               <img class="xzoom-gallery" src="https://www.uboric.com//wp-content/uploads/2021/02/DSC_1014_result.jpg" >
+                           </a>
+                               <a href=" https://www.uboric.com//wp-content/uploads/2021/02/DSC_1013_result.jpg" height="400px" width="600px">
+                                   <img class="xzoom-gallery" src="https://www.uboric.com//wp-content/uploads/2021/02/DSC_1013_result.jpg" >
+                        </a>
+                    </div>
+                </div>
+            </div>
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+         
+          <div id="shoesdis">
+              <p id="shoesh1">WOODLAND MAN'S CASUAL/PARTY SHOES IN TAN COLOUR</p>
+              <div id="price"><span id="rupe">₹3,695.00</span><span id="pricetext">(Inclusive of all taxes)</span></div>
+              <div id="guarantee">
+                  <img src="https://www.uboric.com/wp-content/uploads/2020/12/guarantee.svg" alt="100%guarantee" width="120px">
+              </div>
+              <div id="supporticon">
+                  <div>
+                      <i class="fa fa-money" class="fouricons" style="font-size: 32px ;font-weight: 400;color: #1e516c; text-align: center;margin-left: 45px;"></i> 
+                      <h4>7 day Return</h4>
+                      
+                      
+                </div>
+                  <div>
+                    <i class="fa fa-headphones" class="fouricons" style="font-size: 32px ;font-weight: 400;color: #1e516c; text-align: center;margin-left: 45px;"></i> 
+                    <h4>24/7 Online Support</h4>
+                  </div>
+                  <div><i class="fa fa-shopping-bag" class="fouricons" style="font-size: 32px ;font-weight: 400;color: #1e516c; text-align: center;margin-left: 45px;"></i> 
+                    <h4>Fast Delivery in India</h4></div>
+                  <div> <i   class="fa fa-credit-card"  class="fouricons" style="font-size: 32px ;font-weight: 400;color: #1e516c; text-align: center;margin-left: 45px;"></i> 
+                    <h4>Secure Payment</h4></div>
+
+              </div>
+              <table>
+                  <tbody>
+                      <tr>
+                          <td> <label id="pasize">Size:</label></td>
+                               <td>
+                                   <select name="size" id="sizebox">
+                                       <option value="--">Choose an option </option>
+                                       <option value="40">40</option>
+                                       <option value="41">41</option>
+                                       <option value="42">42</option>
+                                       <option value="43">43</option>
+                                       <option value="44">44</option>
+                                   </select>
+                               </td>
+                      </tr>
+                  </tbody>
+              </table>
+              <div id="buycart">
+                   <div>   
+                        <!-- go to buy option  --> 
+                       <button id="butt1" onclick="movetocart()" > <input type="hidden">BUY NOW</button>  </div>   
+                       
+                  <div>
+                      <input type="number" id="input1" value="1"  min="1" max="999" >
+                  </div>
+                  <div ><button id="butt3" onclick="addcart()" >ADD TO CART</button> </div>
+
+<script>
+
+
+
+                        function movetocart(){
+                            window.location.href="checkout.html"
+                        }
+                     
+     var total=[];
+    
+      function addcart(){
+    
+    var sum=document.getElementById("input1").value;
+   console.log(sum)
+    var pp=document.getElementById("cartsum");
+    pp.textContent= "( " + sum + " )";
+    var g=document.getElementById("butt3");
+    
+   
+     
+       total.push(sum)
+       summm(total)
+      var pp=document.getElementById("cartsum");
+      console.log(sum);
+       
+    }
+    function summm(total){
+        var newsum=0
+        total=total.split("").map(Number)
+        for(var i=0;i<total.length;i++){
+            newsum=newsum+total[i]
+
+        }
+        console.log(newsum)
+    }
+
+   
+   
+</script>
+
+
+
+
+
+              </div>
+              <div id="enquirybox">
+                  <button id="enquirybutt">SEND ENQUIRY</button>
+              </div>
+              <div id="colourfulltext">
+                <ul>
+                    <li><span id="preorder" > <i class="fas fa-crown" id="odd"></i> Guaranteed delivery with 100% original Products </span></li>
+                    <li> <span> <span id="preorder">COD available</span> on some categories </span></li>
+                    
+                    <li><span>FOR ONLINE PAYMENT<span id="preorder"> EXTRA ₹100 DISCOUNR</span> ON ORDERS <span id="preorder"> ABOVE ₹500</span></span></li>
+                    <li><span> <span id="preorder">EMI</span>OPTION AVAILABLE </span></li>
+                    <li> <span> <span id="preorder">FREE SHIPPING</span> ON PREPAID ORDERS & ALSO GET EXTRA <span id="preorder"> ₹69 DISCOUNT</span>ON <span id="preorder"> PREPAID ORDERS</span>ABOVE<span id="preorder"> ₹500</span></span></li>
+                    <li id="newodd"> <span> <span id="preorder">FREE SHIPPING</span> ABOVE<span id="preorder">₹500</span> ON <span id="preorder">PREPAID</span>AND<span id="preorder">COD</span> ORDERS</span></li>
+                    <li> <span>BELOW ₹500 <span id="preorder">CASE ON DELIVERY </span>CHARGES<span id="preorder">₹49</span></span></li>
+                    <li> <span> YOU WILL RECEIVE PRODUCTS IN NEXT <span id="preorder"> 5  TO 7 DAYS </span> ALL OVER <span id="preorder">INDIA </span> </span></li>
+                    <li> <span> RETURN AVAILABLE ON <span id="preorder"> WRONG </span> OR <span id="preorder"> DAMAGED </span> PRODUCT DELIVERED,READ <span id="preorder"> RETURN PLOICY </span> TO KNOW MORE.</span></li>
+                </ul>
+               
+                 </div>
+               <span id="skuholl"> <span id="sku"> SKU:</span> WOOD66 </span>
+               <br>
+               <span id="skuholl"> <span id="sku"> Categories:</span> Casual/Party shoes,Foot Wear,Men's footwear </span>
+               <!-- <div id="icons">
+                   <div>
+                   <button> <i class="fab fa-facebook-square" style="font-size:45px;color:blue"></i></button>
+                   </div>
+                   <div>
+                   <button><i class="fa fa-whatsapp-square" style="font-size:45px;color:green"></i></button> 
+                   </div>
+                   <div> 
+                    <button><i class="fa fa-twitter-square" style="font-size:45px;color:#23a6d5"></i></i></button> 
+                   </div>
+                   <div>
+                    <button><i class="fa fa-envelope-square" aria-hidden="true" style="font-size: 45px; color: #7a0505;"></i></button> 
+                   </div>
+                   <div>
+                       <button><i class="fa fa-skype" style="font-size:45px;color:#23a6d5"></i></button>
+                   </div>
+                   <div>
+                       <button><i class="fa fa-telegram" style="font-size:45px;color:#23a6d5"></i></button>
+                   </div>
+               </div>
+            
+            </div>
+              
+          </div> -->
+          <div id="icons">
+            <div>
+            <button onclick="buttt1()" > <i class="fab fa-facebook-square" style="font-size:45px;color:blue"></i></button>
+            <script>
+               function buttt1(){
+                   window.location.href="https://www.facebook.com/"
+               }
+            </script>
+            </div>
+            <div>
+            <button onclick="buttt2()"><i class="fa fa-whatsapp-square" style="font-size:45px;color:green"></i></button> 
+          <script>
+              function buttt2(){
+
+              
+              window.location.href="https://www.whatsapp.com/"
+              }
+          </script>
+          
+            </div>
+            <div> 
+             <button onclick="buttt3()"><i class="fa fa-twitter-square" style="font-size:45px;color:#23a6d5"></i></i></button> 
+             <script>
+                 function buttt3(){
+                     window.location.href="https://twitter.com/"
+                 }
+              </script>
+            </div>
+            <div>
+             <button onclick="buttt4()"><i class="fa fa-envelope-square" aria-hidden="true" style="font-size: 45px; color: #7a0505;"></i></button> 
+             <script>
+                 function buttt4(){
+                     window.location.href="https://www.google.com/intl/en-GB/gmail/about/#"
+                 }
+              </script>
+            </div>
+            <div>
+                <button onclick="buttt5()"><i class="fa fa-skype" style="font-size:45px;color:#23a6d5"></i></button>
+                <script>
+                 function buttt5(){
+                     window.location.href="https://www.skype.com/en/"
+                 }
+              </script>
+            </div>
+            <div>
+                <button onclick="buttt6()"><i class="fa fa-telegram" style="font-size:45px;color:#23a6d5"></i></button>
+                <script>
+                 function buttt6(){
+                     window.location.href="https://telegram.org/"
+                 }
+              </script>
+            </div>
+        </div>
+     
+     </div>
+       
+   </div>
+
+          <div id="descriptionsize">
+           
+                <div class="rahulsizebox">
+                    <div class="button-box" > 
+                        <div id="btn"></div>
+                        <button  class="toggle-btn" id="bt1" onclick="DESCRIPTION()">DESCRIPTION</button>
+                        <button class="toggle-btn" id="bt2" onclick="SIZE_CHART()">SIZE_CHART</button>
+                    </div>
+
+
+
+       
+                
+                   <div id="pri">
+                 <div id="dis">
+                    <span>WOODLAND MEN’S CASUAL PARTY  SHOES – 2657117</span>
+                    <br>
+                    <span>MATERIAL = LEATHER</span>
+                    <br>
+                    <span>SOLE = RUBBER/PU/TPR</span>
+                    <br>
+                    <span>COLOUR = TAN</span>
+                    <br>
+                    <span>CLOUSER = LACE UP</span>
+                    <br>
+                    <span>SIZE = 6,7,8,9,10</span>
+                 </div>
+                <div id="dissize">
+                     <h3>Size Chart</h3>
+                     
+                     <p>How to measure</p>
+                 
+                        
+                     <table id="customers">
+                        <tr>
+                          <th>Uk</th>
+                          <th>US</th>
+                          <th>EURO</th>
+                          <th>TO Fit Foot Length(cm)</th>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>5.5</td>
+                          <td>38.5</td>
+                          <td>23.5</td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td>6.5</td>
+                          <td>39.5</td>
+                          <td>24.5</td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td>7.5</td>
+                          <td>40.5</td>
+                          <td>25.5</td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td>8.5</td>
+                          <td>42</td>
+                          <td>26.5</td>
+                        </tr>
+                        <tr>
+                          <td>9</td>
+                          <td>9.5</td>
+                          <td>43</td>
+                          <td>27.5</td>
+                        </tr>
+                        <tr>
+                          <td>10</td>
+                          <td>10.5</td>
+                          <td>44.5</td>
+                          <td>28.5</td>
+                        </tr>
+                        <tr>
+                          <td>11</td>
+                          <td>11.5</td>
+                          <td>46</td>
+                          <td>29.5</td>
+                        </tr>
+                        <tr>
+                          <td>12</td>
+                          <td>12.5</td>
+                          <td>47.5</td>
+                          <td>30.5</td>
+                        </tr>
+                       
+                      </table>
+                      
+
+
+                </div>
+            </div>
+            
+                </div>
+
+          </div>
+          
+          <div id="relatedproducts">
+              <span>Related products</span>
+              <div> 
+                  <img src="https://www.uboric.com/wp-content/uploads/2019/11/DSC_0094_result.jpg" height="200px" width="312px">
+                  <p>G.SERIES MEN'S LOAFER in BROWN</p>
+                  <SPan> <SPan id="rate">₹449.00 </SPan> (Inclusive of all taxes) </SPan>
+              </div>
+              <div> 
+                <img src="https://www.uboric.com/wp-content/uploads/2019/11/DSC_0122_result-4.jpg" height="200px" width="312px">
+                <p>TRY IT MEN'S LOAFER in BROWN</p>
+                <SPan> <SPan id="rate">₹999.00 </SPan> (Inclusive of all taxes) </SPan>
+            </div>
+            <div> 
+                <img src="https://www.uboric.com/wp-content/uploads/2019/11/DSC_0267_result.jpg" height="200px" width="312px">
+                <p>G.SERIES MEN’S CASUAL/PARTY WEAR in BROWN</p>
+                <SPan> <SPan id="rate">₹1200.00 </SPan> (Inclusive of all taxes) </SPan>
+            </div>
+            <div> 
+                <img src="https://www.uboric.com/wp-content/uploads/2019/11/DSC_0028_result-2.jpg" height="200px" width="312px">
+                <p>WOODLAND MEN’S CASUAL SHOES in CAMEL</p>
+                <SPan> <SPan id="rate">₹3895.00 </SPan> (Inclusive of all taxes) </SPan>
+            </div>
+          </div>
+       
+<!-- 
+          <div id="Zreview">
+            <div id="head">
+                <h1>What Our Customer Says</h1>
+            </div>
+            <div id="z1">
+                <p>Premium Quality Footwear Products.Fast Delivery,Hassle Free Return Process, Wide range compare to other stores and websites.Highly Recommend Uboric for your all kind of Footwear Needs</p>
+                <p>Sanket Anadani</p>
+            </div>
+            <div id="z2">
+                <p>Auspicious range of foot wares.Premium branded products.Good service and delivery duration.Super high value of customer.</p>
+                <p>Tushar Pandya</p>
+            </div>
+            <div id="z3">
+                <p>I think one of the best app for the shoes shopping. i  totally happy with it. Thank you so much uboric</p>
+                <p>harpal patel</p>
+            </div>
+            <div id="bottom">
+                <button id="revbtn">Add Your Review</button>
+            </div>
+        </div>
+        <div id="Zfooter">
+            <img src="https://www.uboric.com/wp-content/uploads/2020/08/google-play1.png" id="googlePlay">
+            
+
+             Navigation-->
+            <!-- <div id="Znav">
+                <a href="aboutUs.html" id="aboutUs">About Us</a>
+                <a href="contact.html" id="contact">Contact</a>
+                <a href="shipping.html" id="return">Shipping & Returns</a>
+                <a href="account.html" id="account">My Account</a>
+                <a href="policy.html" id="policy">Privacy Policy</a>
+                <a href="seller.html" id="seller">Become A Seller</a>
+                <a href="condition.html" id="term">Terms & Conditions</a>
+
+                <p id="para"><i class="far fa-copyright"></i> 2019-2021 UBORIC.ALL RIGHTS RESERVED.</p>
+
+                <div id="Zicon">
+                    <div class="social">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div class="social">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>  -->
+
+
+
+
+    
+    <div id="Zreview">
+        <div id="head">
+            <h1>What Our Customer Says</h1>
+        </div>
+        <div id="qt"><i class="fas fa-quote-left qts"></i></div>
+        <div id="z1">
+            <p>Premium Quality Footwear Products.Fast Delivery,Hassle Free Return Process, Wide range compare to other stores and websites.Highly Recommend Uboric for your all kind of Footwear Needs</p>
+            <p>Sanket Anadani</p>
+            <i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"><span id="custRating"> — customer</span></i>
+        </div>
+        <div id="z2">
+            <p>Auspicious range of foot wares.Premium branded products.Good service and delivery duration.Super high value of customer.</p>
+            <p>Tushar Pandya</p>
+            <i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"><span id="custRating"> — customer</span></i>
+        </div>
+        <div id="z3">
+            <p>I think one of the best app for the shoes shopping. i  totally happy with it. Thank you so much uboric</p>
+            <p>harpal patel</p>
+            <i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"><span id="custRating"> — customer</span></i>
+        </div>
+        <div id="bottom">
+            <button id="revbtn">Add Your Review</button>
+        </div>
+    </div>
+    <div id="Zfooter">
+        <img src="https://www.uboric.com/wp-content/uploads/2020/08/google-play1.png" id="googlePlay">
+        
+        <!--Navigation-->
+        <div id="Znav">
+            <a href="aboutUs.html" id="aboutUs">About Us</a>
+            <a href="contact.html" id="contact">Contact</a>
+            <a href="shipping.html" id="return">Shipping & Returns</a>
+            <a href="LoginSignup.html" id="account">My Account</a>
+            <a href="policy.html" id="policy">Privacy Policy</a>
+            <a href="vender_page.html" id="seller">Become A Seller</a>
+            <a href="condition.html" id="term">Terms & Conditions</a>
+
+            <p id="para"><i class="far fa-copyright"></i> 2019-2021 UBORIC.ALL RIGHTS RESERVED.</p>
+
+            <div id="Zicon">
+                <div class="social">
+                    <i class="fab fa-facebook faceLogo"></i>
+                </div>
+                <div class="social">
+                    <i class="fab fa-instagram instLogo"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+      
+       
+</body>
+</html>
+<script>
+    var x=document.getElementById("dis");
+    var y=document.getElementById("dissize");
+    var z=document.getElementById("btn");
+   var e=document.getElementById("bt1");
+   var d=document.getElementById("bt2");
+   var p=document.getElementById("descriptionsize");
+    function DESCRIPTION(){
+        x.style.marginLeft="50px"
+        y.style.marginLeft="1010px"
+        e.style.textDecoration="Underline";
+        d.style.textDecoration="";
+        p.style.height="400px"
+     
+    }
+    function SIZE_CHART() {
+     y.style.marginRight="-4500px"
+     x.style.marginLeft="-1350px"
+     e.style.textDecoration="";
+     d.style.textDecoration="Underline";  
+     p.style.height="700px" 
+
+        
+    }
+
+
+</script>

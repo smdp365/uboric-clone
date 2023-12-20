@@ -1,0 +1,137 @@
+
+
+
+
+#rahulline{
+    border: 2px solid;
+    border-style: 2px hidden 2px hidden;
+    border-color: #1e516c white #1e516c white;
+}
+        @font-face {
+            font-family: 'LatoRegular';
+            src: url(font/Lato-Regular.ttf);
+        }
+        body{
+            margin: 0px;
+        }
+        #topOfferBar{
+            background-color: #1e516c;
+            color: white;
+            text-align: center;
+            padding: 10px 0px;
+            font-size: 15px;
+            font-family: Helvetica, Arial, sans-serif;
+            width: 100%;
+            margin:0px auto;
+            position: fixed;
+            
+        
+           
+        }
+        #navBar1{
+            display: flex;
+           
+            width: 100%;
+            height: 100px;
+            margin: 0px auto;
+           
+        }
+        #searchBox{
+            display: flex;
+            border: 1px solid black;
+            width: 28%;
+            height: 28px;
+            margin: 30px;
+            border-radius: 4px;
+            background-color: rgb(70,70,70);
+        }
+        #searchBar{
+            width: 94%;
+            height: 92%;
+            border: transparent;    
+            resize: none;
+            outline: none;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
+        #searchButton{
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+            width: 22px;
+            margin-left: 4px;
+        }
+        #uboricLogoBox{
+            width: 28%;
+            height: 100%;
+            margin-left: 55px;
+        }
+        #uboricLogo{
+            padding: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #accountCartBox{
+            display: flex;
+            width: 28%; 
+            padding: 30px 0px;
+            justify-content: end;   
+            margin-left: 58px;
+        }
+        .fas{
+            font-size: 28px;
+            margin-left: 25px;
+            color: rgb(30,81,108);
+        }
+        .fas:hover{
+            color: gold;
+        }
+        #navBar{
+           
+            margin: auto;
+            width: 60%;
+            height: 60px;
+            padding: 10px;
+        }
+        #check{
+            border: 1px solid red;
+            height: 100%;
+        }
+        #sectionNameBox{
+            border: 1px solid white;
+            width: 80%;
+            height: 150px;
+            margin: auto;
+
+        }
+        #myAccount{
+            display: block;
+            color: #1e516c;
+            font-family:'LatoRegular',sans-serif;
+            font-size: 24px;
+            letter-spacing: 3px;
+            text-align: center;
+            margin-bottom: 0px;
+            
+        }
+        #home{
+            color: #1e516c;
+            font-family:'LatoRegular',sans-serif;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        #myAccountGap{
+            margin-left: 5px;
+        }
+        #Gap{
+            margin-left: 5px;
+            font-size: 12px;
+            
+        }
+#rahultop{
+    margin-bottom: 4px;
+    height: 40px;
+    border: 0px hidden;
+}
+ 

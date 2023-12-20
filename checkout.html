@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <script src="https://kit.fontawesome.com/2b1b51c954.js" crossorigin="anonymous"></script>
+    <title>Checkout</title>
+    <link rel = "icon" href = "titlelogo1.png" sizes="any" type = "image/x-icon"  >
+</head>
+<body>
+    <p id="topOfferBar">FOR ONLINE PAYMENT EXTRA $50 DISCOUNT ON ORDERS ABOVE $500</p>
+        <div id="navBar1">
+            <div id="searchBox">
+                <input id="searchBar" type="text" placeholder="Search here..."/>
+                <img id="searchButton" src="search.svg" alt="search">
+            </div>
+            <div id="uboricLogoBox">
+                <img id="uboricLogo" src="uboric.svg" alt="uboric logo">
+            </div>
+            <div id="accountCartBox">
+                
+                <div class="signindropdown">
+                    <i id="accountLogo" class="fas fa-user-circle"></i>
+                    <div class="signindropdown-content">
+                        <h1>Sign in</h1>
+                        <p>CREATE AN ACCOUNT</p>
+                        <hr/>
+                      <form>
+                          <label id="signinBoxtxt">Username or email<span id="redStar"> *</span></label><br/>
+                          <input id="signinEmail" type="text"/><br/>
+                          <label id="signinBoxtxt">Password<span id="redStar"> *</span></label><br/>
+                          <input id="signinPassword" type="password"/><br/>
+                          <a id="passwordLost" href="">LOST YOUR PASSWORD?</a><br/>
+                          <input id="signinButton" type="submit" value="LOGIN"/><br/>
+                      </form>
+                    </div>
+                 </div>
+            
+            <i class="fas fa-cart-plus"></i>
+        </div>
+        </div>
+
+    <!------------Black NavBar Code Start------------>
+    <div id="navBarBox">
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">Categories 
+                <i class="fa fa-caret-down arrowD"></i>
+              </button>
+              <div class="dropdown-content">
+                  <div class="tab">
+                      <button class="tablinks" onmouseover="openCategory(event, 'Fashion')">Fashion</button>
+                      <button class="tablinks" onmouseover="openCategory(event, 'Kitchen')">Kitchen</button>
+                      <button class="tablinks" onmouseover="openCategory(event, 'Accessories')">Accessories</button>
+                      <button class="tablinks" onmouseover="openCategory(event, 'Health&PersonalCare')">Health & Personal Care</button>
+                      <button class="tablinks" onmouseover="openCategory(event, 'Electronics')">Electronics</button>
+                      <button class="tablinks" onmouseover="openCategory(event, 'ElectricAppliances')">Electric Appliances</button>
+                      <button class="tablinks" >Paintings</button>
+                      <button class="tablinks" >Anti puncture Liquid</button>
+                    
+                    </div>
+                    
+                    <div id="Fashion" class="tabcontent">
+                      <table>
+                        <thead align="left" class="tableheader">
+                            <tr>
+                                <th colspan="3" align="left" valign="middle" style="text-decoration: none;">
+                                Foot Wear</th>
+                                <th rowspan="1" align="left" valign="middle" style="text-decoration: none;">
+                                Clothing</th>
+                            </tr>
+                            <tr>
+                                <th>Mens footwear</th>
+                                <th>Socs</th>
+                                <th>Product Clouser</th>
+                                <td>Mens Clothing</td>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td align="left">Casual Chapple/Slippers</td>
+                            <td align="left"></td>
+                            <td align="left">Lace Up</td>  
+                            <td align="left">Womens colthing</td> 
+                        </tr>
+                        <tr>
+                            <td align="left">Casual Sandals</td>
+                            <td align="left"></td>
+                            <td align="left">Slip On</td>
+                            <td align="left">Western Wear</td>
+                        </tr>
+                        <tr>
+                            <td align="left"> Casual/Party Shoes</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                            <td align="left">Kurti</td>
+                        </tr>
+                        <tr>
+                            <td align="left"> Chappal/Slippers</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td align="left"> Crocs</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                        <tr>
+                            <td align="left"> Flip Flops</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                        <tr>
+                            <td align="left"> Loafers</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                        <tr>
+                            <td align="left"> Mojdi</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                        <tr>
+                            <td align="left">Sneakers</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                        <tr>
+                            <td align="left">Sports Sandals</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                        <tr>
+                            <td align="left">Soprts Shoes</td>
+                            <td align="left"></td>
+                            <td align="left"></td>
+                        </tr>
+                      </table>
+                    </div>
+                    
+                    <div id="Kitchen" class="tabcontent">
+                        <table>
+                            <thead align="left" class="tableheader">
+                                <tr>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Kitchen Ware</th>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Household Supplies</th>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Grocery</th>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Spices</th>
+                                </tr>
+                                <tr>
+                                    <th>Air Tight Containers</th>
+                                </tr>
+                                <tr>
+                                    <th>Gas Lighter</th>
+                                </tr>
+                                <tr>
+                                    <th>Kitchen Tools</th>
+                                </tr>
+                            </thead>
+                            </table>
+                    </div>
+                    
+                    <div id="Accessories" class="tabcontent">
+                        <table>
+                            <thead align="left" class="tableheader">
+                                <tr>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Unisex Braclets</th>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Jewellery</th>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Bathroom Accessories</th>
+                                </tr>
+                            </thead>
+                            </table>
+                    </div>
+                    
+                    <div id="Health&PersonalCare" class="tabcontent">
+                        <table>
+                            <thead align="left" class="tableheader">
+                                <tr>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Health Care</th>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Personal Care</th>
+                                </tr>
+                                <tr>
+                                    <td>Day Joy</td>
+                                    <td>Bombay Shaving Company</td>
+                                </tr>
+                                <tr>
+                                    <td>Face Mask</td>
+                                    <td>Day Joy</td>
+                                </tr>
+                                <tr>
+                                    <td>GNFC</td>
+                                    <td>Dr Batras</td>
+                                </tr>
+                                <tr>
+                                    <td>Oxi9</td>
+                                    <td>DYNA</td>
+                                </tr>
+                                <tr>
+                                    <td>Shreeji Sanjavni Gurukul</td>
+                                    <td>GNFC</td>
+                                </tr>
+                            </thead>
+                            </table>
+                    </div>
+                    
+                    <div id="Electronics" class="tabcontent">
+                        <table>
+                            <thead align="left" class="tableheader">
+                                <tr>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Headphones</th>
+                                </tr>
+                                <tr>
+                                    <td>From 549</td>
+                                </tr>
+                                <tr>
+                                    <td>From 1132</td>
+                                </tr>
+                                <tr>
+                                    <td>From 1714</td>
+                                </tr>
+                                <tr>
+                                    <td>From 2297</td>
+                                </tr>
+                            </thead>
+                            </table>
+                    </div>
+                    
+                    <div id="ElectricAppliances" class="tabcontent">
+                        <table>
+                            <thead align="left" class="tableheader">
+                                <tr>
+                                    <th  align="left" valign="middle" style="text-decoration: none;">
+                                    Philips</th>
+                                </tr>
+                            </thead>
+                            </table>
+                    </div>
+                    
+                    <div class="clearfix"></div>
+                </div>
+              
+            </div> 
+            <a href="#news">Customer/Guest login</a>
+            <a href="#news">Merchant/Bulk Order</a>
+            <a href="#news">Become A Seller</a>
+          </div>
+    </div>
+    
+
+        <script>
+        function openCategory(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+        }
+        </script>
+    <!------------Black NavBar Code End------------>
+
+    <!------------Section Name Code Start------------>
+    <div id="sectionNameBox">
+        <h1 id="myAccount">Checkout</h1>
+        <p id="home">Home <span id="Gap"> ></span><span id="myAccountGap"> Checkout</span></p>
+    </div>
+    <!------------Section Name Code End------------>
+
+         <div class="coupon-toggle">
+            <div class="woocommerce-info">Have a coupon? <a href="#" class="showcoupon">Click here to enter your code</a></div>
+        </div>
+
+        <div id="checkoutBox">
+           <div id="checkouDetails">
+               <h3>Billing details</h3>
+               <form>
+                   
+                   <label id="checkoutLabels1">FIRST NAME<span id="redStar"> *</span></label>
+                   <label id="checkoutLabels2">LAST NAME<span id="redStar"> *</span></label><br>
+                   <input type="text" id="fName"/>
+                   <input type="text" id="lName"/><br>
+                   <label id="checkoutLabels3">COMPANY NAME (OPTIONAL)</label><br>
+                   <input type="text" id="cName"/><br>
+                   <label id="checkoutlabels4">COUNTRY/REGION<span id="redStar"> *</span></label><br>
+                   <select id="countryName">
+                    <option value="">Select a country / region…</option>
+                    <option value="AF">Afghanistan</option><option value="AX">Åland Islands</option>
+                    <option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">American Samoa</option>
+                    <option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option>
+                    <option value="AQ">Antarctica</option><option value="AG">Antigua and Barbuda</option>
+                    <option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option>
+                    <option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option>
+                    <option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option>
+                    <option value="BB">Barbados</option><option value="BY">Belarus</option><option value="PW">Belau</option>
+                    <option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option>
+                    <option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option>
+                    <option value="BQ">Bonaire, Saint Eustatius and Saba</option>
+                    <option value="BA">Bosnia and Herzegovina</option><option value="BW">Botswana</option>
+                    <option value="BV">Bouvet Island</option><option value="BR">Brazil</option>
+                    <option value="IO">British Indian Ocean Territory</option>
+                    <option value="BN">Brunei</option><option value="BG">Bulgaria</option>
+                    <option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="KH">Cambodia</option>
+                    <option value="CM">Cameroon</option><option value="CA">Canada</option><option value="CV">Cape Verde</option>
+                    <option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option>
+                    <option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option>
+                    <option value="CX">Christmas Island</option><option value="CC">Cocos (Keeling) Islands</option>
+                    <option value="CO">Colombia</option><option value="KM">Comoros</option>
+                    <option value="CG">Congo (Brazzaville)</option> <option value="CD">Congo (Kinshasa)</option>
+                    <option value="CK">Cook Islands</option><option value="CR">Costa Rica</option>
+                    <option value="HR">Croatia</option><option value="CU">Cuba</option><option value="CW">Curaçao</option>
+                    <option value="CY">Cyprus</option><option value="CZ">Czech Republic</option>
+                    <option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option>
+                    <option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option>
+                    <option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option>
+                    <option value="EE">Estonia</option><option value="ET">Ethiopia</option><option value="FK">Falkland Islands</option>
+                    <option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option>
+                    <option value="FR">France</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option>
+                    <option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option>
+                    <option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option>
+                    <option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option>
+                    <option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GU">Guam</option>
+                    <option value="GT">Guatemala</option><option value="GG">Guernsey</option><option value="GN">Guinea</option>
+                    <option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option>
+                    <option value="HM">Heard Island and McDonald Islands</option><option value="HN">Honduras</option>
+                    <option value="HK">Hong Kong</option><option value="HU">Hungary</option><option value="IS">Iceland</option>
+                    <option value="IN" selected="selected">India</option><option value="ID">Indonesia</option><option value="IR">Iran</option>
+                    <option value="IQ">Iraq</option><option value="IE">Ireland</option><option value="IM">Isle of Man</option>
+                    <option value="IL">Israel</option><option value="IT">Italy</option><option value="CI">Ivory Coast</option>
+                    <option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JE">Jersey</option>
+                    <option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option>
+                    <option value="KI">Kiribati</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option>
+                    <option value="LA">Laos</option><option value="LV">Latvia</option><option value="LB">Lebanon</option>
+                    <option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libya</option>
+                    <option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option>
+                    <option value="MO">Macao</option><option value="MG">Madagascar</option><option value="MW">Malawi</option>
+                    <option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option>
+                    <option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option>
+                    <option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option>
+                    <option value="MX">Mexico</option><option value="FM">Micronesia</option><option value="MD">Moldova</option>
+                    <option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option>
+                    <option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option>
+                    <option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option>
+                    <option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="NC">New Caledonia</option>
+                    <option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option>
+                    <option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option>
+                    <option value="KP">North Korea</option><option value="MK">North Macedonia</option><option value="MP">Northern Mariana Islands</option>
+                    <option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option>
+                    <option value="PS">Palestinian Territory</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option>
+                    <option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option>
+                    <option value="PN">Pitcairn</option><option value="PL">Poland</option><option value="PT">Portugal</option>
+                    <option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="RE">Reunion</option>
+                    <option value="RO">Romania</option><option value="RU">Russia</option><option value="RW">Rwanda</option>
+                    <option value="ST">São Tomé and Príncipe</option><option value="BL">Saint Barthélemy</option>
+                    <option value="SH">Saint Helena</option><option value="KN">Saint Kitts and Nevis</option><option value="LC">Saint Lucia</option>
+                    <option value="SX">Saint Martin (Dutch part)</option><option value="MF">Saint Martin (French part)</option>
+                    <option value="PM">Saint Pierre and Miquelon</option><option value="VC">Saint Vincent and the Grenadines</option>
+                    <option value="WS">Samoa</option><option value="SM">San Marino</option><option value="SA">Saudi Arabia</option>
+                    <option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option>
+                    <option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SK">Slovakia</option>
+                    <option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option>
+                    <option value="ZA">South Africa</option><option value="GS">South Georgia/Sandwich Islands</option><option value="KR">South Korea</option>
+                    <option value="SS">South Sudan</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option>
+                    <option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard and Jan Mayen</option>
+                    <option value="SZ">Swaziland</option><option value="SE">Sweden</option><option value="CH">Switzerland</option>
+                    <option value="SY">Syria</option><option value="TW">Taiwan</option><option value="TJ">Tajikistan</option>
+                    <option value="TZ">Tanzania</option><option value="TH">Thailand</option><option value="TL">Timor-Leste</option>
+                    <option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option>
+                    <option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option>
+                    <option value="TM">Turkmenistan</option><option value="TC">Turks and Caicos Islands</option>
+                    <option value="TV">Tuvalu</option><option value="UG">Uganda</option><option value="UA">Ukraine</option>
+                    <option value="AE">United Arab Emirates</option><option value="GB">United Kingdom (UK)</option>
+                    <option value="US">United States (US)</option><option value="UM">United States (US) Minor Outlying Islands</option>
+                    <option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option>
+                    <option value="VA">Vatican</option><option value="VE">Venezuela</option><option value="VN">Vietnam</option>
+                    <option value="VG">Virgin Islands (British)</option><option value="VI">Virgin Islands (US)</option>
+                    <option value="WF">Wallis and Futuna</option><option value="EH">Western Sahara</option><option value="YE">Yemen</option>
+                    <option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option>
+                    </select>
+                   <label id="checkoutAdd">ADDRESS<span id="redStar"> *</span></label><br>
+                   <input type="text" id="address" placeholder="House number and street name"/><br>
+                   <label id="townCity">TOWN/CITY <span id="redStar"> *</span></label> 
+                   <label id="stateCounty">STATE/COUNTY<span id="redStar"> *</span></label><br>
+                   <input type="text" id="cityName"/>
+                   <select id="stateName">
+                    <option value=""></option>
+                    <option value="Andhara Pradesh">Andhara Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Ladhakh">Ladhakh</option>
+                    <option value="Madhaya Pradesh">Madhaya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Megahalaya">Megahalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="West Bengal">West Bengal</option>
+                    <option value="Andaman and Nicobar">Andaman and Nicobar</option>
+                    <option value="Islands">Islands</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Dadra and Nagra Haveli">Dadra and Nagra Haveli</option>
+                    <option value="Daman and Diu">Daman and Diu</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Lakshadeep">Lakshadeep</option>
+                    <option value="Pondicherry">Pondicherry</option>
+                     </select>
+                   <label id="checkoutZip">POSTCODE/ZIP<span id="redStar"> *</span></label> 
+                   <label id="checkoutPhone">PHONE<span id="redStar"> *</span></label><br>
+                   <input type="text" id="zipCode"/> 
+                   <input type="number" id="phoneNo"/>  
+                   <label id="checkoutAltPhone">ALTERNATE PHONE (OPTIONAL)<span id="redStar"> *</span></label> 
+                   <label id="checkoutEmail">EMAIL ADDRESS<span id="redStar"> *</span></label><br>
+                   <input type="number" id="AltPhone"/> 
+                   <input type="text" id="emailID"/><br>
+                   <p id="emailCarttext" >Your email & cart are saved so we can send email reminders about this order. No Thanks</p><br>
+                   <h3 id="addInfoTxt">Additional information</h3>
+                   <label id="noteArea">Order notes(optional)</label><br>
+                   <textarea id="noteAboutOrder" placeholder="Notes about your order, e.g.special notes for delivery"></textarea>
+
+
+                        
+                
+                  
+               </form>
+           </div> 
+           <div id="checkoutInfo">
+               
+                <label id="product">PRODUCTS</label>
+                <label id="subtotal">SUBTOTAL</label><br>
+                <hr id="hr1">
+                <label id="rebook">Reebok Men Sports Lace Up - 9  × 1</label>
+                <label id="price1">₹2,599.00</label><br>
+                <hr id="hrComm">
+                <label id="subTotal">SUBTOTAL</label>
+                <label id="priceComm">₹2,599.00</label><br>
+                <hr id="hrComm">
+                <label id="total">TOTAL</label>
+                <label id="priceComm1">₹2,599.00</label><br>
+                <hr>
+ 
+                <div id="returningCust">Returning customer?<a id="clickLogin" href="#">Click here to login</a></div>
+                    <div id="offersDetailsBox">
+                        <ul>
+                            <li><span class="pre-order-span"><i class="crown"></i> Guaranteed delivery with 100% original products</span></li>
+                            <li> <span class="pre-order-span">COD available</span>  on some categories</li>
+                            <li>FOR ONLINE PAYMENT <span class="pre-order-span">EXTRA ₹100 DISCOUNT</span> ON ORDERS <span class="pre-order-span">ABOVE ₹500</span></li>
+                            <li><span class="pre-order-span"> EMI</span> OPTION AVAILABLE </li><li>TO AVAIL MORE BANK OPTIONS ON<span class="pre-order-span"> EMI</span> PURCHASE ABOVE <span class="pre-order-span">RS. 3000</span> </li>
+                            <li><span class="pre-order-span">FREE SHIPPING</span> ON PREPAID ORDERS &amp; ALSO GET EXTRA <span class="pre-order-span">₹69 DISCOUNT</span> ON <span class="pre-order-span">PREPAID ORDERS </span>ABOVE <span class="pre-order-span">₹500</span></li>
+                            <li><span class="pre-order-span">FREE SHIPPING</span> ABOVE <span class="pre-order-span">₹500</span> ON <span class="pre-order-span">PREPAID</span> AND <span class="pre-order-span">COD</span> ORDERS </li>
+                            <li>BELOW ₹500 <span class="pre-order-span"> CASH ON DELIVERY</span> CHARGES <span class="pre-order-span">₹49</span></li>
+                        </ul>
+                    </div>
+                    <div class="labelOfferText"> You will receive products in next 5 to 7 days all over India. Your tracking id will be share on your registered email id</div>
+
+                    <div id="checkoutMethodBox">
+                        <input id="codCheck" type="radio" >
+                        <label id="cod">Cash on delivery</label> <br>
+                        <hr id="divider">
+
+                        <input id="ccavenueCheck" type="radio">
+                        <label id="ccavenue">CCAvenue 
+                            <img id="cavnimg" src="https://www.uboric.com/wp-content/plugins/ccavanue-woocommerce-payment-getway/images/logo.png" alt="CCAvenue">
+                        </label>
+                        <hr>
+
+                        <input id="paytmpay" type="radio">
+                        <label id="paytm">Pay with paytm 
+                            <img id="paytmimg" src="https://www.uboric.com/wp-content/plugins/woo-paytm-payment-gateway/images/logo.gif" alt="pay with paytm">
+                        </label>
+                        <hr>
+
+                        <input id="razorpay" type="radio">
+                        <label id="payrazorpay">Razorpay 
+                            <img id="razorimg" src="https://cdn.razorpay.com/static/assets/logo/payment.svg" alt="Razorpay">
+                        </label>
+
+                        <p id="prsnlData">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our</p>
+
+                        <button type="submit" id="place_order" onclick="message()" >PLACE ORDER</button>
+
+                                    
+                    </div>
+            </div>   
+        </div>
+        <div id="granteedIMG"></div>
+         <!-- Mayur Code Ends -->
+
+
+         <!-- footer code -->
+         <div id="Zreview">
+            <div id="head">
+                <h1>What Our Customer Says</h1>
+            </div>
+            <div id="qt"><i class="fas fa-quote-left qts"></i></div>
+            <div id="z1">
+                <p>Premium Quality Footwear Products.Fast Delivery,Hassle Free Return Process, Wide range compare to other stores and websites.Highly Recommend Uboric for your all kind of Footwear Needs</p>
+                <p>Sanket Anadani</p>
+                <i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"><span id="custRating"> — customer</span></i>
+            </div>
+            <div id="z2">
+                <p>Auspicious range of foot wares.Premium branded products.Good service and delivery duration.Super high value of customer.</p>
+                <p>Tushar Pandya</p>
+                <i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"><span id="custRating"> — customer</span></i>
+            </div>
+            <div id="z3">
+                <p>I think one of the best app for the shoes shopping. i  totally happy with it. Thank you so much uboric</p>
+                <p>harpal patel</p>
+                <i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"></i><i class="fas fa-star ratingStar"><span id="custRating"> — customer</span></i>
+            </div>
+            <div id="bottom">
+                <button id="revbtn">Add Your Review</button>
+            </div>
+        </div>
+        <div id="Zfooter">
+            <img src="https://www.uboric.com/wp-content/uploads/2020/08/google-play1.png" id="googlePlay">
+            
+            <!--Navigation-->
+            <div id="Znav">
+                <a href="aboutUs.html" id="aboutUs">About Us</a>
+                <a href="contact.html" id="contact">Contact</a>
+                <a href="shipping.html" id="return">Shipping & Returns</a>
+                <a href="account.html" id="account">My Account</a>
+                <a href="policy.html" id="policy">Privacy Policy</a>
+                <a href="seller.html" id="seller">Become A Seller</a>
+                <a href="condition.html" id="term">Terms & Conditions</a>
+
+                <p id="para"><i class="far fa-copyright"></i> 2019-2021 UBORIC.ALL RIGHTS RESERVED.</p>
+
+                <div id="Zicon">
+                    <div class="social">
+                        <i class="fab fa-facebook faceLogo"></i>
+                    </div>
+                    <div class="social">
+                        <i class="fab fa-instagram instLogo"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+                              
+                
+                                                      
+                        
+                    
+    
+</body>
+</html>
+<script>
+    function message(){
+    var value=document.querySelector("#emailID").value;
+    var pay=document.querySelector("#codCheck").value;
+    console.log(pay)
+    
+
+        if (document.getElementById('codCheck').checked) {
+            rate_value = document.getElementById('codCheck').value;
+            if(value != "" && pay == "on" ){
+        
+
+                    window.location.href="thankyou.html"
+            }
+        }
+    
+    }
+
+</script>

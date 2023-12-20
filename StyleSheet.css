@@ -1,0 +1,609 @@
+
+        @font-face {
+            font-family: 'LatoRegular';
+            src: url(font/Lato-Regular.ttf);
+        }
+        body{
+            margin: 0px;
+        }
+        #topOfferBar{
+            background-color: #1e516c;
+            color: white;
+            text-align: center;
+            padding: 12px 0px;
+            font-size: 15px;
+            font-family: Helvetica, Arial, sans-serif;
+            width: 100%;
+            margin:0px auto;
+            /* position: -webkit-sticky; */
+            position: sticky;
+            top: 0;
+        }
+        #navBar1{
+            display: flex;
+            /* border: 1px solid red; */
+            width: 100%;
+            height: 100px;
+            margin: 0px auto;
+        }
+        #searchBox{
+            display: flex;
+            border: 1px solid black;
+            width: 28%;
+            height: 28px;
+            margin: 30px;
+            border-radius: 4px;
+            background-color: rgb(70,70,70);
+        }
+        #searchBar{
+            width: 94%;
+            height: 92%;
+            border: transparent;    
+            resize: none;
+            outline: none;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
+        #searchButton{
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+            width: 22px;
+            margin-left: 4px;
+        }
+        #uboricLogoBox{
+            width: 28%;
+            height: 100%;
+            margin-left: 55px;
+        }
+        #uboricLogo{
+            padding: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #accountCartBox{
+            display: flex;
+            width: 28%; 
+            padding: 30px 0px;
+            justify-content: end;   
+            margin-left: 58px;
+        }
+        .fas{
+            font-size: 28px;
+            margin-left: 25px;
+            color: rgb(30,81,108);
+        }
+        .fas:hover{
+            color: gold;
+        }
+        #navBarBox{
+            /* border: 1px solid blue; */
+            margin: auto;
+            width: 60%;
+            height: 40px;
+            display: flex;
+            background-color: white;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        #navBarBox>*{
+            background-color: white;
+            width: 100px;
+            margin:0 2px;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'LatoRegular',sans-serif;
+            font-weight: bold;
+            /* flex: 0 0 auto; */
+            letter-spacing: 1px;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding: 11px 0px;
+        }
+        #navBarBox>*:hover{
+            background-color: black;
+            color: white;
+        }
+        #navBarBox>:nth-child(1){
+            width: 70px;
+        }
+        #navBarBox>:nth-child(2){
+            width: 125px;
+            padding: 10px 0px;
+        }
+        #navBarBox>:nth-child(3){
+            width: 190px;
+            background-color: black;
+            color: white;
+        }
+        #navBarBox>:nth-child(4){
+            width: 190px;
+        }
+        #navBarBox>:nth-child(5){
+            width: 150px;
+        }
+        .hover1::after{
+            content: ' \25BE';
+        }
+        #sectionNameBox{
+            border: 1px solid white;
+            width: 60%;
+            height: 100px;
+            margin: auto;
+            margin-top: 18px;
+
+        }
+        #myAccount{
+            display: block;
+            color: #1e516c;
+            font-family:'LatoRegular',sans-serif;
+            font-size: 24px;
+            letter-spacing: 3px;
+            text-align: center;
+            margin-bottom: 0px;
+            
+        }
+        #home{
+            color: #1e516c;
+            font-family:'LatoRegular',sans-serif;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        #myAccountGap{
+            margin-left: 5px;
+        }
+        #Gap{
+            margin-left: 5px;
+            font-size: 12px;
+            
+        }
+        #loginSignupBox{
+            display: grid;
+            grid-template-columns: 29% 29%;
+            grid-gap: 0px 30px;
+            margin: auto;
+            justify-content: center;
+        }
+        #loginBox{
+            /* border: 1px solid black; */
+            height: 597px;
+            padding-top: 10px;
+            
+        }
+        #headTxt{
+            font-family:'LatoRegular',sans-serif;
+            text-align: center;
+            margin-top: 0px;
+        }
+        #loginFormDiv{
+            /* border: 1px solid red; */
+            background-color: #FAFAFA;
+            height: 81.5%;
+            padding: 30px;
+            box-shadow: 0px 10px 9px -10px rgba(17, 17, 17, 0.384);
+        }
+        #loginForm{
+            /* border: 1px solid black; */
+            height: 100%;
+
+        }
+        #connectWith{
+            margin-top: 0px;
+            font-family: 'LatoRegular',sans-serif;
+            margin-bottom: 6px;
+        }
+        #googleSignin{
+            border: 1px solid rgb(79,113,232);
+            width: 38%;
+            height: 32px;
+            border-radius: 3px;
+            display: flex;
+            background-color: white;
+            margin-bottom: 60px;
+        }
+        #googleImage{
+            background-color: white;
+            margin-left: 5px;
+            height: 32px;
+        }
+        #loginwithgooglebox{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(79,113,232);
+            justify-content: center;
+            text-align: center;
+        }
+        #loginGoogleTxt{
+            color: white;
+            font-family: 'LatoRegular',sans-serif;
+            font-size: 14px;
+            text-align: center;
+            margin-top:8px
+        
+        }
+        #redStar{
+            color: red;
+        }
+        #labels{
+            font-family: 'LatoRegular',sans-serif;
+            font-size: 14px;
+            color: #313131;
+        }
+        #inputBox{
+            background-color: #FFFFFF;
+            font-size: 0.875rem;
+            border: 1px solid #a1a0a05d;
+            display: block;
+            width: 91.5%;
+            height: 29px;
+            padding: 14px 20px;
+            margin-top: 10px;
+            margin-bottom: 12px;
+
+        }
+        #inputBox:focus{
+            outline: 1px solid orange;
+            
+        }
+        #submitButton{
+            margin-left: 30px;
+            background-color: #ffce61; 
+            letter-spacing: 1px ;
+            border-radius: 3px ;
+            padding: 14px 20px;
+            border: 1px solid black;
+            font-weight: bold;
+            color: #000 ;
+        }
+        #lostPassSignup{
+            font-family: 'LatoRegular',sans-serif;
+            margin-top: 30px;
+            line-height: 3px;
+        }
+        #signupFormDiv{
+            height: 81.5%;
+            padding: 30px;
+        }
+        #randomTxt1{
+            margin-top: 0px;
+            font-family: 'LatoRegular',sans-serif;
+            margin-bottom: 25px;
+            line-height: 30px;
+        }
+        #randomTxt2{
+            margin-top: 0px;
+            font-family: 'LatoRegular',sans-serif;
+            margin-bottom: 20px;
+            line-height: 30px;
+        }
+        #randomTxt3{
+            margin-top: 0px;
+            font-family: 'LatoRegular',sans-serif;
+            margin-bottom: 25px;
+            line-height: 30px;
+        }
+        #registerButton{
+            margin-left: 30px;
+            background-color: #ffce61; 
+            letter-spacing: 1px ;
+            border-radius: 3px ;
+            padding: 14px 20px;
+            border: 1px solid black;
+            font-weight: bold;
+            color: #000 ;
+            margin-bottom: 15px;
+        }
+        #emailBox{
+            background-color: #FFFFFF;
+            font-size: 0.875rem;
+            border: 1px solid #a1a0a05d;
+            display: block;
+            width: 91.5%;
+            height: 29px;
+            padding: 14px 20px;
+            margin-top: 10px;
+            margin-bottom: 12px;
+        }
+        #emailBox:focus{
+            outline: 1px solid orange;
+        }
+        #trial{
+            height: 2000px;
+        }
+        @media only screen and (min-width:769px){
+            #navBar1MV{
+                /* display: flex; */
+                /* border: 1px solid red; */
+                width: 100%;
+                height: 190px;
+                margin: 0px auto;
+                display: none;
+            }
+            #navBar1IPV{
+                display: flex;
+                /* border: 1px solid red; */
+                width: 100%;
+                height: 100px;
+                margin: 0px auto;
+                display: none;
+            }
+        }
+        @media only screen and (min-width:375px) and (max-width:768px){
+            #loginSignupBox{
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-gap: 30px;
+                margin:30px;
+                justify-content: center;
+            }
+            #navBar1MV{
+                /* display: flex; */
+                /* border: 1px solid red; */
+                width: 100%;
+                height: 190px;
+                margin: 0px auto;
+                display: none;
+            }
+            #navBar{
+                border: 1px solid blue;
+                margin: auto;
+                width: 60%;
+                height: 40px;
+                padding: 10px;
+                display: none;
+            }
+            #navBarBox{
+                /* border: 1px solid blue; */
+                margin: auto;
+                width: 60%;
+                height: 40px;
+                display: flex;
+                background-color: white;
+                justify-content: center;
+                margin-top: 15px;
+                display: none;
+            }
+            #navBar1{
+                display: flex;
+                /* border: 1px solid red; */
+                width: 100%;
+                height: 100px;
+                margin: 0px auto;
+                display: none;
+            }
+            #navBar1IPV{
+                display: flex;
+                /* border: 1px solid red; */
+                width: 100%;
+                height: 100px;
+                margin: 0px auto;
+                
+            }
+            #searchBoxIPV{
+                display: flex;
+                border: 1px solid black;
+                width: 220px;
+                height: 28px;
+                margin:0 5px;
+                border-radius: 4px;
+                background-color: rgb(70,70,70);
+                margin-left: 0px;
+                margin-right: 40px;
+                margin-top: 30px;
+                
+            }
+            #searchBarIPV{
+                width: 94%;
+                height: 92%;
+                border: transparent;    
+                resize: none;
+                outline: none;
+                border-top-left-radius: 3px;
+                border-bottom-left-radius: 3px;
+            }
+            #searchButtonIPV{
+                border-top-right-radius: 3px;
+                border-bottom-right-radius: 3px;
+                width: 22px;
+                margin-left: 4px;
+            }
+            #uboricLogoBoxIPV{
+                width: 20%;
+                height: 50%;
+                margin: 0 5px;
+                margin-right: 90px;
+                margin-top: 15px;
+            }
+            #uboricLogoIPV{
+                padding: 10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+                height: 100%;
+            }
+            #accountCartBoxIPV{
+                display: flex;
+                width: 28%; 
+                padding: 30px 20px;
+                justify-content: end;   
+                margin-left: 58px;
+            }
+            .far{
+                font-size: 28px;
+                margin-left: 25px;
+                color: rgb(30,81,108);
+            }
+            #categoryBoxIPV{
+                width: 20%; 
+                padding: 30px 0px;
+                justify-content: start;            
+            }
+            #googleSignin{
+                border: 1px solid rgb(79,113,232);
+                width: 65%;
+                height: 32px;
+                border-radius: 3px;
+                display: flex;
+                background-color: white;
+                margin-bottom: 60px;
+            }
+        }
+        @media only screen and (min-width:0px) and (max-width:375px){
+            #navBarBox{
+                /* border: 1px solid blue; */
+                margin: auto;
+                width: 60%;
+                height: 40px;
+                display: flex;
+                background-color: white;
+                justify-content: center;
+                margin-top: 15px;
+                display: none;
+            }
+            #navBar1IPV{
+                display: flex;
+                /* border: 1px solid red; */
+                width: 100%;
+                height: 100px;
+                margin: 0px auto;
+                display: none;
+            }
+            #topOfferBar{
+                background-color: #1e516c;
+                color: white;
+                text-align: center;
+                padding: 19px 0px;
+                font-size: 15px;
+                font-family: Helvetica, Arial, sans-serif;
+                width: 100%;
+                margin:0px auto;
+                /* position: -webkit-sticky; */
+                position: sticky;
+                top: 0;
+            }
+            #loginSignupBox{
+                display: grid;
+                grid-template-columns: 100%;
+                grid-gap: 30px;
+                margin: 15px;
+                justify-content: center;
+            }
+            #googleSignin{
+                border: 1px solid rgb(79,113,232);
+                width: 70%;
+                height: 32px;
+                border-radius: 3px;
+                display: flex;
+                background-color: white;
+                margin-bottom: 60px;
+            }
+            #navBar1{
+                display: flex;
+                /* border: 1px solid red; */
+                width: 100%;
+                height: 100px;
+                margin: 0px auto;
+                visibility: hidden;
+                display: none;
+            }
+            #navBar1MV{
+                /* display: flex; */
+                /* border: 1px solid red; */
+                width: 100%;
+                height: 190px;
+                margin: 0px auto;
+            }
+            #searchBoxMV{
+                display: flex;
+                border: 1px solid black;
+                width: 90%;
+                height: 28px;
+                margin-top: 50px;
+                border-radius: 4px;
+                background-color: rgb(70,70,70);
+                margin: auto;
+                margin-bottom: 0px;
+            }
+            #searchBarMV{
+                width: 94%;
+                height: 92%;
+                border: transparent;    
+                resize: none;
+                outline: none;
+                border-top-left-radius: 3px;
+                border-bottom-left-radius: 3px;
+            }
+            #searchButtonMV{
+                border-top-right-radius: 3px;
+                border-bottom-right-radius: 3px;
+                width: 22px;
+                margin-left: 4px;
+            }
+            #uboricLogoBoxMV{
+                /* border: 1px solid black; */
+                width: 100%;
+                height: 55px;  
+                margin-top: 20px;   
+            }
+            #uboricLogoMV{
+                padding: 10px; 
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin: auto;
+                height: 42px;
+                margin-top: 11px;
+                
+                /* justify-content: center; */
+            }
+            #accountCartBoxMV{
+                /* border: 1px solid blue; */
+                display: flex;
+                width: 94%;
+                padding: 10px 20px 10px 0px;
+                /* position: absolute; */
+                right: 0;  
+                justify-content: right;
+                margin-bottom: 18px;
+                
+            }
+            .fas{
+                font-size: 20px;
+                margin-left: 25px;
+                color: black;
+            }
+            .barsmod{
+                margin-right: 225px;
+            }
+            #navBar{
+                border: 1px solid blue;
+                margin: auto;
+                width: 60%;
+                height: 40px;
+                padding: 10px;
+                display: none;
+            }
+            #myAccount{
+                display: block;
+                color: #1e516c;
+                font-family:'LatoRegular',sans-serif;
+                font-size: 18px;
+                letter-spacing: 3px;
+                text-align: center;
+                margin-bottom: 0px;
+                margin-top: 0px;
+                
+            }
+            #home{
+                color: #1e516c;
+                font-family:'LatoRegular',sans-serif;
+                font-size: 16px;
+                text-align: center;
+                margin-top: 15px;
+            }
+           
+        }
+
+ 

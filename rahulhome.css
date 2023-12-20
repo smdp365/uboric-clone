@@ -1,0 +1,302 @@
+#container{
+    font-family: Lato, sans-serif;
+}
+#ZtopCont{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #1e516c;
+}
+#Zcoupon{
+    margin-top: 8px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+}
+#Zreview{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 636px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 425px 425px 425px;
+    grid-template-rows: 80px 350px 25px;
+    grid-gap: 25px;
+    text-align: center;
+    grid-template-areas: 
+    "h h h"
+    "mid1 mid2 mid3"
+    "b b b";
+    justify-content: center;
+    background-color: #837418;
+    color: white;
+    font-family: Lato, sans-serif;
+}
+#head{
+    grid-area: h;
+    /* border: 1px solid blue; */
+    padding: 20px;
+}
+#head > h1{
+    font-weight: lighter;
+    font-size: 36px;
+}
+#z1{
+    grid-area: mid1;
+    /* border: 1px solid orange; */
+}
+#z2{
+    grid-area: mid2;
+    /* border: 1px solid orange; */
+}
+#z3{
+    grid-area: mid3;
+    /* border: 1px solid orange; */
+}
+#bottom{
+    grid-area: b;
+    /* border: 1px solid saddlebrown; */
+}
+#z1 > p{
+    line-height: 35px;
+    padding: 25px;
+    font-size: 19px;
+}
+#z2 > p{
+    line-height: 35px;
+    padding: 25px;
+    font-size: 19px;
+}
+#z3 > p{
+    line-height: 35px;
+    padding: 25px;
+    font-size: 19px;
+}
+#revbtn{
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #ffce61;
+    font-size: 15px;
+}
+#Zfooter{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: black;
+}
+#Znav{
+    margin-top: 15px;
+    font-family: Lato, sans-serif;
+}
+#Znav > a:hover{
+    color: #ffce61;
+}
+#googlePlay{
+    margin-top: 60px;
+}
+a{
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+}
+#Zicon{
+    display: grid;
+    grid-template-columns: repeat(2,50px);
+    grid-template-rows: repeat(1,50px);
+    justify-content: center;
+}
+#Znav > #Zicon > .social{
+    /* border: 1px solid black; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    background-color: #ffce61;
+    margin-top: 15px;
+}
+i{
+    margin-top: 13px;
+    text-align: center;
+}
+#para{
+    margin-top: 25px;
+    color: white;
+    font-family: Lato, sans-serif;
+}
+#aboutPara{
+        width: 70%;
+        height: 500px;
+        /* border: 1px solid red; */
+        margin: auto;
+        margin-bottom: 50px;
+        font-family: Lato, sans-serif;
+        line-height: 30px;
+    }
+#Zterm{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 575px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-family: Lato, sans-serif;
+    line-height: 30px;
+}
+
+#Zshipping{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 750px;
+    margin: auto;
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-family: Lato, sans-serif;
+}
+#Zshipping > h1{
+    font-size: 20px;
+}
+
+#Zpolicy{
+    width: 70%;
+    height: 512px;
+    margin: auto;
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-family: Lato, sans-serif;
+}
+
+#benefits{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 625px;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: #faf8f8;
+    font-family: Lato, sans-serif;
+
+}
+#benefits > h2{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: lighter;
+    color: #1e516c;
+}
+#benefits > p{
+    line-height: 30px;
+    padding: 8px;
+}
+#facility{
+    /* border: 1px solid teal; */
+    width: 70%;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+#facility > p{
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0px 0px 0px 13px;
+}
+#facility > p{  
+    margin: auto;
+    color: #1e516c;
+    font-size: 20px;  
+}
+
+#prodList{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(5,274.8px);
+    grid-template-rows: repeat(1,412.88px);
+    margin-bottom: 50px;
+    grid-gap: 27px;
+    margin-left: 7px;
+    
+}
+#Zprod1,#Zprod2,#Zprod3,#Zprod4,#Zprod5{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#prodList > div > img:hover{
+    border-radius: 2px;
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#paintImg{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,685px);
+    grid-template-rows: repeat(1,400px);
+    grid-gap:55px;
+    margin-bottom: 45px;
+    margin-left: 25px;
+}
+#paintImg > div > img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+
+#headphone{
+    /* border: 1px solid red; */
+    width: 1300px;
+    height: 320px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+#headphone > img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#trimmer > img{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#trimmer > img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+#cart{
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#cart > div{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#cart > div > h2{
+    font-size: 30px;
+    color: #1e516c;
+    margin-top: 0px;
+    font-family: Lato, sans-serif;
+}
+
+#spices{
+    display: grid;
+    grid-template-columns: repeat(5,274.8px);
+    grid-template-rows: repeat(1,412.88px);
+    margin-bottom: 50px;
+    grid-gap: 27px;
+    margin-left: 7px;
+}
+
+#spice1,#spice2,#spice3,#spice4,#spice{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#spices > div > img:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+    
+}

@@ -23,11 +23,11 @@ We used HTML, CSS, javascript for building this website.
 
 # 4. Our Team:
 We were five members in team:
-1. Mayur Kachane 
-2. Shivangi Mall 
+1. Rahul Lodhi
+2. Mayur Kachane 
 3. Paritosh Parihar
 4. Shaikh Ahmad Zaki
-5. Rahul Lodhi
+5. Shivangi Mall
 
 # 5. Quick Start
 1. Open a folder where you want to clone the repo
